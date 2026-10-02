@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+BCICIV_2a_gdf.zip
+true_labels.zip
+BCICIV_2a/
+true_labels/
+arl-eegmodels/
+*.weights.h5

@@ -1,0 +1,4 @@
+fold,best_validation_accuracy_percent,evaluation_accuracy_percent,training_time_minutes
+1,68.75,69.79,9.58
+2,79.17,69.44,9.27
+3,68.75,69.44,9.75

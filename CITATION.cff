@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "EEGNet Reproduction on BCI Competition IV-2a"
+message: "Please cite the original EEGNet paper when using the model."
+type: software
+authors:
+  - family-names: Hegde
+    given-names: Sushrutha S.
+year: 2026
+references:
+  - type: article
+    authors:
+      - family-names: Lawhern
+        given-names: Vernon J.
+      - family-names: Solon
+        given-names: Amelia J.
+      - family-names: Waytowich
+        given-names: Nicholas R.
+      - family-names: Gordon
+        given-names: Stephen M.
+      - family-names: Hung
+        given-names: Chou P.
+      - family-names: Lance
+        given-names: Brent J.
+    title: "EEGNet: a compact convolutional neural network for EEG-based brain-computer interfaces"
+    journal: "Journal of Neural Engineering"
+    volume: 15
+    issue: 5
+    pages: "056013"
+    year: 2018
+    doi: "10.1088/1741-2552/aace8c"

@@ -1,0 +1,21 @@
+{
+  "paper": "EEGNet: a compact convolutional neural network for EEG-based brain-computer interfaces",
+  "dataset": "BCI Competition IV Dataset 2a",
+  "subject": "A01",
+  "runtime": "Google Colab CPU",
+  "tensorflow": "2.20.0",
+  "input_shape": [288, 22, 256, 1],
+  "classes": ["left hand", "right hand", "feet", "tongue"],
+  "parameters": 1796,
+  "epochs": 500,
+  "batch_size": 64,
+  "folds": 3,
+  "folds_results": [
+    {"fold": 1, "best_validation_accuracy_percent": 68.75, "evaluation_accuracy_percent": 69.79, "training_time_minutes": 9.58},
+    {"fold": 2, "best_validation_accuracy_percent": 79.17, "evaluation_accuracy_percent": 69.44, "training_time_minutes": 9.27},
+    {"fold": 3, "best_validation_accuracy_percent": 68.75, "evaluation_accuracy_percent": 69.44, "training_time_minutes": 9.75}
+  ],
+  "mean_evaluation_accuracy_percent": 69.56,
+  "std_evaluation_accuracy_percent": 0.16,
+  "total_training_time_minutes": 28.61
+}
